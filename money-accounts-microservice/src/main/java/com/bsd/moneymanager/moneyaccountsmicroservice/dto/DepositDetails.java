@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @EqualsAndHashCode
 @Getter
 public class DepositDetails {
-    private final long id;
-    private final LocalDateTime createdAt;
-    private final BigDecimal amount;
+    public final long id;
+    public final LocalDateTime createdAt;
+    public final BigDecimal amount;
 }

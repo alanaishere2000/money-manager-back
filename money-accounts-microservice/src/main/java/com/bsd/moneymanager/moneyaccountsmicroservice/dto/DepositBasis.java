@@ -10,6 +10,6 @@ import java.math.BigDecimal;
 @EqualsAndHashCode
 @Getter
 public class DepositBasis {
-    private final long moneyAccountId;
-    private final BigDecimal amount;
+    public final long moneyAccountId;
+    public final BigDecimal amount;
 }
